@@ -8,7 +8,7 @@ import SettingsPage from './pages/SettingsPage'
 import HomePage from './pages/HomePage'
 
 import { useAuthStore } from './store/useAuthStore'
-import { useThemeStore } from './store/UseThemeStore'
+import { useThemeStore } from './store/useThemeStore.js'
 import { Loader } from 'lucide-react'
 import { Navigate } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
